@@ -1,0 +1,55 @@
+{
+  "name": "dsh-compact-sidebar",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Compact sidebar navigation on narrow/short viewports so the workspace history keeps its space.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "icon-180.png"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "license": "MIT",
+  "author": "suyunxing <suyunxings@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyunxing/dsh-compact-sidebar.git"
+  },
+  "homepage": "https://github.com/suyunxing/dsh-compact-sidebar",
+  "bugs": {
+    "url": "https://github.com/suyunxing/dsh-compact-sidebar/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "sidebar",
+    "layout",
+    "compact",
+    "resource"
+  ],
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Compact Sidebar",
+    "description": "Squeezes the sidebar global navigation into a compact two-column grid so the workspace and session history keep most of the height, and repairs dsh-resource:// records whose protocol the browser URL parser reports as empty."
+  }
+}
